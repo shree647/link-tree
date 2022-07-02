@@ -1,8 +1,9 @@
 .container {
   text-align: center;
+
 }
 body{
-  background-image: url(unsplash.jpg);
+  background-image: url(Purple\ Bliss.jpg);
    background-size: 110% 190%;
     height: 800%; 
     background-repeat: no-repeat;
@@ -17,28 +18,28 @@ em {
   text-transform: uppercase;
 }
 button {
-  background-color:rgba(0, 0, 0, 0.1);
+  background-color:rgba(123, 94, 94, 0);
   font-family:  'Gideon Roman', cursive;
   font-weight: 1000;
   font-size: 1em;
   columns: white;
-  padding: 12px 20px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  background-position: center;
+
   
 }
 
 button:hover {
-  background-color: rgba(226, 139, 226, 0.20);
+  background-color: rgba(102, 235, 222, 0.2);
   backface-visibility: hidden;
 }
 .bts {
   height: 35px;
   width: 200px;
-  margin-top: 100px;
+  margin-top: 25px;
 }
 .bts1 {
   width: 200px;
@@ -57,5 +58,6 @@ button:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
     border-radius: 50%;
 }
