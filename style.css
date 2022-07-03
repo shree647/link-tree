@@ -4,22 +4,19 @@
 }
 body{
   background-image: url(Purple\ Bliss.jpg);
-   background-size: 110% 190%;
+   background-size: 100% 300%;
     height: 800%; 
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     object-fit: cover;
 }
-p {
-  text-align: center;
-  font-family: 'Gideon Roman', cursive;
-  margin-top: 25px;
-}
-em {
-  text-transform: uppercase;
+
+h1{
+ font-family: 'Lobster', cursive;
+ font-size: 2rem;
 }
 button {
   background-color:rgba(123, 94, 94, 0);
-  font-family:  'Gideon Roman', cursive;
+  font-family:'Lobster', cursive;
   font-weight: 1000;
   font-size: 1em;
   columns: white;
@@ -28,36 +25,52 @@ button {
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-
-  
 }
 
 button:hover {
-  background-color: rgba(102, 235, 222, 0.2);
+  text-transform: uppercase;
   backface-visibility: hidden;
 }
-.bts {
+.bts.bts1.bts2 .bts3 {
   height: 35px;
   width: 200px;
-  margin-top: 25px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
-.bts1 {
-  width: 200px;
-  height: 35px;
-}
-.bts2 {
-  width: 200px;
-  height: 35px;
-}
-.bts3 {
-  width: 200px;
-  height: 35px;
-}
+
 .image{
-  
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10%;
     border-radius: 50%;
+}
+.animate-charcter
+{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #8434da 29%,
+    rgb(61, 206, 247) 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 50% auto;
+  color: #fff;
+  background-clip: text;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  animation-delay: 1s;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
